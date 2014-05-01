@@ -1,0 +1,84 @@
+BODY
+{
+	font-family: Verdana;
+	font-size: 9pt;
+}
+#page-wrap
+{
+	margin: 0px auto;
+	width: 800px;
+}
+P
+{
+	margin-top: 4px;
+	margin-bottom: 0px;
+}
+#header H1
+{
+	margin: 12px;
+	font-size: 38.4pt;
+	font-family: "Arial Black";
+}
+#main
+{
+	margin-left: 156px;
+}
+#main DIV
+{
+	/*[disabled]background-color:#FAFAFA;*/
+	/*[disabled]border:3px double #EAEAEA;*/
+	/*[disabled]padding:6px;*/
+	/*[disabled]font-family:Verdana;*/
+	/*[disabled]font-size:10pt;*/
+	/*[disabled]width:313px;*/
+	/*[disabled]margin-bottom:8px;*/
+}
+#module DIV
+{
+	background-color: #FAFAFA;
+	border-left: 5px solid #6375D1;
+	padding: 6px;
+	font-family: Verdana;
+	font-size: 10pt;
+	width: 574px;
+	margin-bottom: 8px;
+}
+#module DIV A
+{
+	color: #697AD3;
+	font-weight: bold;
+	text-decoration: none;
+}
+#module DIV A:hover
+{
+	color: #2940B9;
+}
+#sidebar
+{
+	/*+placement:float-left 0px 0px;*/
+	float: left;
+	position: relative;
+	left: 0px;
+	top: 0px;
+	width: 133px;
+}
+#sidebar UL
+{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+#sidebar A
+{
+	display: block;
+	text-decoration: none;
+	border-left: 10px solid transparent;
+	padding-left: 4px;
+	margin-bottom: 5px;
+	background-color: #F6E1E1;
+	padding: 6px;
+}
+#sidebar A:hover
+{
+	border-left: 10px solid #D16363;
+}
