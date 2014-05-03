@@ -31,8 +31,9 @@ P
 	/*[disabled]font-family:Verdana;*/
 	/*[disabled]font-size:10pt;*/
 	/*[disabled]width:313px;*/
-	/*[disabled]margin-bottom:8px;*/
+	margin-bottom:24px;
 }
+
 #module DIV
 {
 	background-color: #FAFAFA;
@@ -42,6 +43,16 @@ P
 	font-size: 10pt;
 	width: 574px;
 	margin-bottom: 8px;
+}
+#module H1
+{
+	display: block;
+	-webkit-margin-before: 0em;
+	-webkit-margin-after: 0.4em;
+	-webkit-margin-start: 0px;
+	-webkit-margin-end: 0px;
+	font-size: 2em;
+	font-weight: bold;
 }
 #module DIV A
 {
