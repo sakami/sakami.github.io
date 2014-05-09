@@ -1,3 +1,39 @@
+#star {
+	background: #4096EE;
+    font-weight: bold;
+    line-height: 11px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    text-align: center;
+    z-index: 10;
+}
+#star:before, #star:after {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background: #4096EE;
+    z-index: -1;
+}
+#star:before {
+    -webkit-transform: rotate(22.5deg);
+       -moz-transform: rotate(22.5deg);
+        -ms-transform: rotate(22.5deg);
+         -o-transform: rotate(22.5deg);
+            transform: rotate(22.5deg);     
+}
+#star:after {
+    -webkit-transform: rotate(67.5deg);
+       -moz-transform: rotate(67.5deg);
+        -ms-transform: rotate(67.5deg);
+         -o-transform: rotate(67.5deg);
+            transform: rotate(67.5deg);    
+}
+
+
 BODY
 {
 	font-family: Verdana;
@@ -25,6 +61,7 @@ P
 }
 #main DIV
 {
+	position: relative;
 	/*[disabled]background-color:#FAFAFA;*/
 	/*[disabled]border:3px double #EAEAEA;*/
 	/*[disabled]padding:6px;*/
@@ -32,6 +69,7 @@ P
 	/*[disabled]font-size:10pt;*/
 	/*[disabled]width:313px;*/
 	margin-bottom:24px;
+	/*position: relative;*/
 }
 
 #module DIV
@@ -93,3 +131,4 @@ P
 {
 	border-left: 10px solid #D16363;
 }
+
