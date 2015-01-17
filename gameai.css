@@ -69,8 +69,8 @@ P
 
 #module DIV
 {
-	background-color: #FAFAFA;
-	border-left: 5px solid #6375D1;
+	background-color: #E8E8E8;
+	border-left: 5px solid #9E9E9E;
 	padding: 6px;
 	font-family: Verdana;
 	font-size: 10pt;
@@ -89,13 +89,13 @@ P
 }
 #module DIV A
 {
-	color: #697AD3;
+	color: #2B558C;
 	font-weight: bold;
 	text-decoration: none;
 }
 #module DIV A:hover
 {
-	color: #2940B9;
+	color: #000000;
 }
 #sidebar
 {
@@ -114,15 +114,17 @@ P
 }
 #sidebar A
 {
+    color: #FFFFFF;
 	display: block;
 	text-decoration: none;
 	border-left: 10px solid transparent;
 	padding-left: 4px;
 	margin-bottom: 5px;
-	background-color: #F6E1E1;
+    background-color: #2B558C;
 	padding: 6px;
 }
 #sidebar A:hover
 {
-	border-left: 10px solid #D16363;
+	border-left: 10px solid #000000;
+	background-color: #294A76;
 }
