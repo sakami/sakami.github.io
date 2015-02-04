@@ -1,3 +1,16 @@
+@font-face
+{
+    font-family:"DejaVuSans" ;
+    src:local("DejaVu Sans"),url( "DejaVuSans.ttf" ) format("truetype");
+    font-weight:normal
+}
+@font-face
+{
+    font-family:"DejaVuSans" ;
+    src:local("DejaVu Sans Bold"),url( "DejaVuSans-Bold.ttf" ) format("truetype");
+    font-weight:bold
+}
+
 #star {
     font-weight: bold;
     position: relative;
@@ -31,8 +44,8 @@
 
 BODY
 {
-	font-family: Verdana;
-	font-size: 9pt;
+	font-family: DejaVuSans, 'DejaVu Sans', arial, sans-serif;
+	font-size: 12.8px;
 }
 #page-wrap
 {
@@ -41,7 +54,7 @@ BODY
 }
 P
 {
-	margin-top: 2px;
+	margin-top: 1px;
 	margin-bottom: 0px;
 }
 #header H1
@@ -71,14 +84,14 @@ P
 {
 	background-color: #F5F5F5;
 	border-left: 5px solid #9E9E9E;
-	font-family: Verdana;
-	font-size: 9pt;
+	font-family: DejaVuSans, 'DejaVu Sans', arial, sans-serif;
+	font-size: 12.8px;
 	width: 574px;
-	margin-bottom: 8px;
+	margin-bottom: 0px;
 	padding-right: 5px;
 	padding-left:  5px;
 	padding-top: 3px;
-	padding-bottom:  3px;
+	padding-bottom: 7px;
 }
 #module H1
 {
